@@ -30,7 +30,13 @@ My first task under the official GSoC period was to implement some additional fu
 
 ## Scope and Future Work
 
-Since most of our `GAN` and `Convolutional` toolbox is already quite optimized, and we have really competitive runtimes on CPU, probably the next step to take would be to look for alternative methods for faster convolutional training.
+Since most of our `GAN` and `Convolutional` toolbox is already quite optimized, and we have really competitive runtimes on CPU, probably the next step to take would be to look for alternative methods for faster convolutional training. Some papers can be looked into (suggested by Marcus):
+
+[Deep Tensor Convolution on Multicores](http://proceedings.mlr.press/v70/budden17a.html)
+
+[MEC: Memory-efficient Convolution for Deep Neural Network](http://proceedings.mlr.press/v70/cho17a.html)
+
+At this point, I also think that since most of the different `GAN` variants are not significantly different from the standard implementation, more time should be spent on hyper-parameter searching tools (like Kris' ([@kris-singh](https://github.com/kris-singh)) idea of having something similar to [hyperopt](https://github.com/hyperopt/hyperopt)) and `GAN` variants should be given a secondary priority for now.
 
 ## Conclusion
 
