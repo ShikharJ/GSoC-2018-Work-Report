@@ -46,6 +46,6 @@ At this point, I also think that since most of the different `GAN` variants are 
 
 I am extremely grateful to my mentor - [Marcus](https://github.com/zoq) - for all his support and for being extremely responsive and helpful everytime I was stuck . Without his help, this project would've been a lot harder and a lot less fun to do.
 
-`Mlpack` was the first Machine Learning library that I contributed to, and the journey has been simply amazing. I have finally come across an Open-Source project that aligns deeply with my personal interests and what I wish to do long-term, a library providing the opportunity of implementing the latest stuff from the research world, a great build architecture and the possibility of working natively in C++.
+`Mlpack` was the first Machine Learning library that I contributed to, and the journey has been simply amazing. I have finally come across an Open-Source project that aligns deeply with my personal interests and what I wish to do long-term, a library providing the opportunity of implementing the latest stuff from the research world, a great build architecture and the possibility of working natively in `C++`.
 
 I am also thankful to `Google` for the opportunity to work on this project, which helped me learn a lot in such a short period of time.
