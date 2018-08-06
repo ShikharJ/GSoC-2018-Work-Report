@@ -25,7 +25,7 @@ We spent most of our time during Phase III running experiments on different data
 [Mlpack](https://github.com/mlpack/mlpack/commits?author=shikharj)
 
 <p align="left">
-  <img width="458" height="193" src="https://github.com/ShikharJ/GSoC-2017-Work-Report/blob/master/src/mlpack.jpg">
+  <img width="458" height="193" src="https://github.com/ShikharJ/GSoC-2017-Work-Report/blob/master/src/mlpack.png">
 </p>
 
 ## Pending Pull Requests
