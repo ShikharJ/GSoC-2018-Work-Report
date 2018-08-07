@@ -6,7 +6,7 @@ My proposal for **Implementing Essential Deep Learning Modules** was selected as
 
 ## Goal
 
-`mlpack` is an intuitive, fast, and flexible `C++` machine learning library with bindings to other languages. It is meant to be a machine learning analog to `LAPACK`, and aims to implement a wide array of machine learning methods and functions as a "swiss army knife" for machine learning researchers. In addition to its powerful `C++` interface, `mlpack` also provides command-line programs and `Python` bindings.
+`mlpack` is an intuitive, fast and flexible `C++` machine learning library with bindings to other languages. It is meant to be a machine learning analog to `LAPACK`, and aims to implement a wide array of machine learning methods and functions as a "swiss army knife" for machine learning researchers. In addition to its powerful `C++` interface, `mlpack` also provides command-line programs and `Python` bindings.
 
 Over the years, Deep Learning has become a promising field of work, attracting attention from the most prominent Machine Learning researchers of the world. One of the most prominent ideas in the field of Deep Learning is `Generative Adversarial Networks` invented by `Ian Goodfellow`. We aimed to implement `GAN`, `Deep Convolutional GAN (DCGAN)` and `Wasserstein GAN (WGAN)`. Some additional goals were also planned, namely the implementation of `Restricted Boltzmann Machines (RBM)`, `Spike and Slab RBM (ssRBM)`, `Stacked GAN (StackGAN)` and `Deep Belief Networks (DBN)`.
 
@@ -20,9 +20,29 @@ A lot of heavy lifting was done during Phase II as well. We decided on the idea 
 
 We spent most of our time during Phase III running experiments on different datasets, and implementing the long pending `RBM` and `Spike and Slab RBM` modules. I also spent some time optimizing the `ANN` infrastructure, which led to a ~30% speedup for the `FFN` and ~22% speedup for the `RNN` networks. I had a few other cool features in mind as well, but probably we'll be working on them after `GSoC` is over.
 
-### Links To Commits
+### Links To Commits and Pull Requests
 
-[mlpack](https://github.com/mlpack/mlpack/commits?author=shikharj)
+[Commits](https://github.com/mlpack/mlpack/commits?author=shikharj)
+
+[Add EvaluateWithGradient to FFN and RNN](https://github.com/mlpack/mlpack/pull/1467)
+
+[Wasserstein GAN Implementation](https://github.com/mlpack/mlpack/pull/1444)
+
+[Batch Support for GANs](https://github.com/mlpack/mlpack/pull/1431)
+
+[DCGAN Test Implementation](https://github.com/mlpack/mlpack/pull/1417)
+
+[Atrous Convolution Implementation](https://github.com/mlpack/mlpack/pull/1390)
+
+[Layer Normalization Implementation](https://github.com/mlpack/mlpack/pull/1389)
+
+[Transposed Convolution Implementation](https://github.com/mlpack/mlpack/pull/1386)
+
+[Improvements and Speedups to Convolution Layer and Associated Rules](https://github.com/mlpack/mlpack/pull/1319)
+
+[RBM and SpikeSlabRBM](https://github.com/mlpack/mlpack/pull/1208)
+
+[Generative Adversarial Network](https://github.com/mlpack/mlpack/pull/1204)
 
 <p align="left">
   <img width="485" height="274" src="https://github.com/ShikharJ/GSoC-2018-Work-Report/blob/master/src/mlpack.png">
@@ -30,7 +50,9 @@ We spent most of our time during Phase III running experiments on different data
 
 ## Pending Pull Requests
 
-[mlpack](https://github.com/mlpack/mlpack/pulls/ShikharJ)
+[SSRBM CIFAR-10 Test](https://github.com/mlpack/mlpack/pull/1477)
+
+[Dual Optimizer for GANs](https://github.com/mlpack/mlpack/pull/1437)
 
 ## Scope and Future Work
 
